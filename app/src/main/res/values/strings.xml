@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">POIapplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cant_empty">Fields can\'t be empty</string>
+    <string name="want_send">Do you want to send your recipe for us?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="make_photo">To take a photo</string>
+    <string name="choice_gallery_image">Choose from the gallery</string>
+    <string name="add_photo">Add photo!</string>
+    <string name="make_shot">To take a photo</string>
+    <string name="choice_file">select a file</string>
+    <string name="cancel_">Cancel</string>
+    <string name="remove_this_POI">Remove this POI?</string>
+    <string name="show_all">Show all POI on map</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="save">save</string>
+    <string name="on_map">on map</string>
+    <string name="edit">edit</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:descendantFocusability="blocksDescendants">
+        <ImageView
+            android:id="@+id/img_poi"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_photo"/>
+    <TextView
+        android:id="@+id/name_poi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="32dp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_centerVertical="true"
+        android:textIsSelectable="false"
+        android:layout_toRightOf="@+id/img_poi"
+        android:layout_toLeftOf="@+id/distance"
+        android:focusable="false"
+        android:textColor="@android:color/black"
+        android:text="Point"/>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500.5м"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:textSize="10sp"
+        />
+</RelativeLayout>
