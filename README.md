@@ -8,13 +8,13 @@ This is Android app that shows a set of interest points over a map.Each point ha
 * The user must be able to edit POI.
 * See the location of each point in a map, or all at once.
 * Sort POIs by distance.
-* Add to favorite POI.
 * All points are stored in the local database and the server in the future.
-* Deleting and adding to favorites POI using swipe left.
 
 # Additional functions
 * Search POIs by name.
+* Add to favorite POI.
 * Photos marker POI on the map
+* Deleting and adding to favorites POI using swipe left.
 
 # Features
 * [Google Maps APIs](https://developers.google.com/maps/?hl=en)
